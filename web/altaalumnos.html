@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Alta alumnos CerdaMonroy</title>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-----------------------------BOOTSTRAP----------------------------->
+        <!--Icono-->
+        <link rel="Icon" type="img/png" href="img/logoicono.png">
+        <!-- Google font -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+        <!-- Slick -->
+        <link type="text/css" rel="stylesheet" href="css/slick.css"/>
+        <link type="text/css" rel="stylesheet" href="css/slick-theme.css"/>
+        <!-- nouislider -->
+        <link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
+        <!-- Font Awesome Icon -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- Custom stlylesheet -->
+        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+        <!--Ventanas emergentes-->
+        <link rel="stylesheet" type="text/css" href="css/ventanas.css">
+        <!-----------------------------/BOOTSTRAP----------------------------->
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Formulario registro Alumna</h1>
+                <div class="alert alert-info">
+                    <h2>Captura de datos alumna</h2>
+                    <hr>
+                    <form method="POST" action="registraralumno.jsp">
+                        
+                        <div class="form-group">
+                            <h3>Matricula Alumno</h3>
+                            <input type="text" name="matricula" class="form-control" placeholder="Matricula" required/>
+                            <h3>Nombre Alumno</h3>
+                            <input type="text" name="nombre" class="form-control" placeholder="Nombre" required/>
+                            <h3>Apellido paterno</h3>
+                            <input type="text" name="ap1" class="form-control" placeholder="Apellido paterno" required/>
+                            <h3>Apellido materno</h3>
+                            <input type="text" name="ap2" class="form-control" placeholder="Apellido materno" required/>
+                            <br><br>
+                            <input type="submit" class="btn btn-primary" value="Registrar alumno nuevo"/>
+                            <input type="reset" class="btn btn-danger" value="Limpiar datos"/>
+                       </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+        
+         <!-- js Plugins -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/jquery.zoom.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/municipios.js"></script>
+    <script type="text/javascript" src="js/select_estados.js"></script>
+    <!-- /js Plugins -->
+        
+    </body>
+</html>

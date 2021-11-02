@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Ventana de Autenticacion Usuario.</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+          <!-----------------------------BOOTSTRAP----------------------------->
+        <!--Icono-->
+        <link rel="Icon" type="img/png" href="img/logoicono.png">
+        <!-- Google font -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+        <!-- Slick -->
+        <link type="text/css" rel="stylesheet" href="css/slick.css"/>
+        <link type="text/css" rel="stylesheet" href="css/slick-theme.css"/>
+        <!-- nouislider -->
+        <link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
+        <!-- Font Awesome Icon -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- Custom stlylesheet -->
+        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+        <!--Ventanas emergentes-->
+        <link rel="stylesheet" type="text/css" href="css/ventanas.css">
+        <!-----------------------------/BOOTSTRAP----------------------------->
+        
+    </head>
+    <body style="background-color: #F08080">
+        <div class="container">
+            <div class="jumbotron">
+                <center>
+                <h3>Sistema WEB UACM JSP CerdaMonroy</h3>
+                <img src="img/logouacm.png" class="img img-responsive" alt="logo"/>
+                
+            </center>
+                <div class="thumbnail">
+                    <center>
+                        <h3>Formulario acceso a Usuarios</h3>
+                        <hr>
+                        <h3><i>Captura los datos de ingreso</i></h3>
+                        <table width="880" height="200" border="0" align="center">
+                            <form method="POST" action="validar.jsp">
+                                <tr>
+                                    <td><img src="img/descarga.png" class="img img-responsive" alt="descarga"/></td>
+                                    <td><h3>Usuario:</h3></td>
+                                    <td><input type="text" name="usuario" class="form-control" required placeholder="Captura usuario"></td>
+                                    <td><h3>Password:</h3></td>
+                                    <td><input type="password" name="password" class="form-control" required placeholder="Captura password"></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td colspan="6" align="center">
+                                        <input type="submit" name="Submit" class="btn btn-warning btn-block" value="Entrar a Sistema">
+                                        <input type="reset" name="Submit2" class="btn btn-danger btn-block" value="Limpiar Datos">    
+                                        
+                                    </td>
+                                </tr>
+                                
+                            </form>
+                            
+                        </table>
+                    </center>
+                </div>
+            </div>
+            
+        
+        </div>
+        
+        
+        
+        
+         <!-- js Plugins -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/nouislider.min.js"></script>
+        <script src="js/jquery.zoom.min.js"></script>
+        <script src="js/main.js"></script>
+        <script type="text/javascript" src="js/municipios.js"></script>
+        <script type="text/javascript" src="js/select_estados.js"></script>
+        <!-- /js Plugins -->
+        
+    </body>
+</html>

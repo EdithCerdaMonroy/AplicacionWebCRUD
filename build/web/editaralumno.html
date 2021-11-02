@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulario busqueda-editar  alumno CerdaMonroy</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-----------------------------BOOTSTRAP----------------------------->
+        <!--Icono-->
+        <link rel="Icon" type="img/png" href="img/logoicono.png">
+        <!-- Google font -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+        <!-- Slick -->
+        <link type="text/css" rel="stylesheet" href="css/slick.css"/>
+        <link type="text/css" rel="stylesheet" href="css/slick-theme.css"/>
+        <!-- nouislider -->
+        <link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
+        <!-- Font Awesome Icon -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- Custom stlylesheet -->
+        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+        <!--Ventanas emergentes-->
+        <link rel="stylesheet" type="text/css" href="css/ventanas.css">
+        <!-----------------------------/BOOTSTRAP----------------------------->
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <center>
+                    <h2>Formulario buscar alumno</h2>
+                    <div class="thumbnail">
+                        <h3>Captura matriciula alumno de alumna a buscar</h3>
+                        <div class="row"><!--FILA-->
+                            <div class="col-sm-6">
+                                <center><img src="img/logouacm.png" class="img img-responsive" alt="logo"/></center>
+                                
+                                
+                            </div>
+                            <div class="col-sm-6">
+                                <form method="POST" action="buscaralumno.jsp">
+                                    <div class="form-group">
+                                        <h4>Matricula alumno a buscar</h4>
+                                        <input type="text" name="matricula" class="form-control" placeholder="Matricula" required/>
+                                        <br><br>
+                                        <input type="submit" class="btn btn-success btn-block" value="Buscar alumno"/>
+                                        <br>
+                                        <input type="reset" class="btn btn-info btn-block" value="Limpiar datos"/>
+                                    </div>
+                                </form>
+                            </div>
+                        </div> <!--/FILA-->
+                    </div>
+                </center>
+            </div>
+        
+        </div>
+        
+          <!-- js Plugins -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/jquery.zoom.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/municipios.js"></script>
+    <script type="text/javascript" src="js/select_estados.js"></script>
+    <!-- /js Plugins -->
+        
+    </body>
+</html>
